@@ -13,24 +13,27 @@ def parent():
     first_child()
 
 
-#first_child
-#parent()
+first_child() # not defined, because it's an inner function
+parent() # outer function
 
 
 def parent(num):
     def first_child():
-        return "Hi, I am Emma"
+        return "Hi, I am Dunban"
 
     def second_child():
-        return "Call me Liam"
+        return "My name is Fiora"
 
     if num == 1:
         return first_child
     else:
         return second_child
+
+# first_child \ second_child are returning the functions - no parenthesis
+# first_child() \ second_child() are calling the functions - parenthesis.
     
 parent(1) # references the 1st inner function inside parent()
-parent(2) # references the 2ns inner function inside parent()
+parent(2) # references the 2nd inner function inside parent()
 
 first = parent(1) # returning a reference to the function without parenthesis
 second = parent(2)
@@ -51,7 +54,7 @@ def say_whee():
     print("Whee!")
 
 say_whee = my_decorator(say_whee)
-
+say_whee()
 
 from datetime import datetime
 
