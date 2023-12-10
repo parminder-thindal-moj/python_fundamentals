@@ -1,4 +1,4 @@
-class Employee:    
+class Employee:
     def __init__(self, name, age, position, salary):
         self.name = name
         self.age = age
@@ -16,9 +16,9 @@ print(emp_1)
 print(emp_2)
 
 
-
 class Employee:
     pass
+
 
 e = Employee()
 

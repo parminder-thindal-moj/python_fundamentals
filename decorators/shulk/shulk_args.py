@@ -1,16 +1,20 @@
 ## Using decorators with1 argument
 
+
 def shulk_says(func):
-    '''Print a msg that Shulk says'''
-    
+    """Print a msg that Shulk says"""
+
     def wrapper(msg):
-        print("Shulk:", end=' ')
+        print("Shulk:", end=" ")
         func(msg)
+
     return wrapper
-    
+
+
 @shulk_says
 def print_msg(msg):
     print(msg)
+
 
 msg_1 = "Monado Buster!"
 msg_2 = "I'm really feeling it!"
