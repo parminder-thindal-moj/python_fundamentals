@@ -1,0 +1,171 @@
+academic_year,time_period,time_identifier,geographic_level,country_code,country_name,region_code,region_name,old_la_code,new_la_code,la_name,total_type,school_phase,estimated_course_starts_by_pupils,total_schools,total_schools_participating,percentage_schools_participating
+202324,2023,October,National,E92000001,England,,,,,,Total since start of NTP,All,4932327,-,-,-
+202021,2021,August,National,E92000001,England,,,,,,Total in academic year,All,310717,-,-,-
+202122,2022,August,National,E92000001,England,,,,,,Total in academic year,All,2215386,-,-,-
+202223,2023,August,National,E92000001,England,,,,,,Total in academic year,All,2060618,21623,15316,70.8
+202324,2023,October,National,E92000001,England,,,,,,Total in academic year,Primary,199923,16772,5758,34.3
+202324,2023,October,National,E92000001,England,,,,,,Total in academic year,Secondary,125368,3416,1451,42.5
+202324,2023,October,National,E92000001,England,,,,,,Total in academic year,Other,20315,1437,485,33.8
+202324,2023,October,National,E92000001,England,,,,,,Total in academic year,All,345606,21625,7694,35.6
+202324,2023,October,Regional,E92000001,England,E12000004,East Midlands,,,,Total in academic year,All,27347,2053,684,33.3
+202324,2023,October,Regional,E92000001,England,E12000006,East of England,,,,Total in academic year,All,31453,2529,927,36.7
+202324,2023,October,Regional,E92000001,England,E12000007,London,,,,Total in academic year,All,72863,2507,1119,44.6
+202324,2023,October,Regional,E92000001,England,E12000001,North East,,,,Total in academic year,All,17237,1118,348,31.1
+202324,2023,October,Regional,E92000001,England,E12000002,North West,,,,Total in academic year,All,54541,3128,1195,38.2
+202324,2023,October,Regional,E92000001,England,E12000008,South East,,,,Total in academic year,All,43745,3351,1150,34.3
+202324,2023,October,Regional,E92000001,England,E12000009,South West,,,,Total in academic year,All,23637,2355,738,31.3
+202324,2023,October,Regional,E92000001,England,E12000005,West Midlands,,,,Total in academic year,All,38603,2368,792,33.4
+202324,2023,October,Regional,E92000001,England,E12000003,Yorkshire and The Humber,,,,Total in academic year,All,36180,2216,741,33.4
+202324,2023,October,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Total in academic year,All,2335,100,40,40
+202324,2023,October,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Total in academic year,All,4781,411,153,37.2
+202324,2023,October,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Total in academic year,All,2824,113,47,41.6
+202324,2023,October,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Total in academic year,All,2363,283,78,27.6
+202324,2023,October,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Total in academic year,All,3268,357,107,30
+202324,2023,October,Local authority,E92000001,England,E12000004,East Midlands,940,E06000061,North Northamptonshire,Total in academic year,All,1951,140,48,34.3
+202324,2023,October,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Total in academic year,All,2404,105,35,33.3
+202324,2023,October,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Total in academic year,All,5244,341,110,32.3
+202324,2023,October,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Total in academic year,All,151,21,5,23.8
+202324,2023,October,Local authority,E92000001,England,E12000004,East Midlands,941,E06000062,West Northamptonshire,Total in academic year,All,2026,182,61,33.5
+202324,2023,October,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford,Total in academic year,All,699,72,22,30.6
+202324,2023,October,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Total in academic year,All,2675,259,85,32.8
+202324,2023,October,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Total in academic year,All,1516,130,41,31.5
+202324,2023,October,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Total in academic year,All,6439,555,196,35.3
+202324,2023,October,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Total in academic year,All,5486,521,192,36.9
+202324,2023,October,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Total in academic year,All,1593,64,27,42.2
+202324,2023,October,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Total in academic year,All,5224,418,178,42.6
+202324,2023,October,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Total in academic year,All,1263,81,29,35.8
+202324,2023,October,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Total in academic year,All,759,52,20,38.5
+202324,2023,October,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Total in academic year,All,3879,321,115,35.8
+202324,2023,October,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Total in academic year,All,1920,56,22,39.3
+202324,2023,October,Local authority,E92000001,England,E12000007,London,301,E09000002,Barking and Dagenham,Total in academic year,All,1630,60,25,41.7
+202324,2023,October,Local authority,E92000001,England,E12000007,London,302,E09000003,Barnet,Total in academic year,All,2462,126,52,41.3
+202324,2023,October,Local authority,E92000001,England,E12000007,London,303,E09000004,Bexley,Total in academic year,All,2100,84,40,47.6
+202324,2023,October,Local authority,E92000001,England,E12000007,London,304,E09000005,Brent,Total in academic year,All,1651,84,35,41.7
+202324,2023,October,Local authority,E92000001,England,E12000007,London,305,E09000006,Bromley,Total in academic year,All,2573,100,30,30
+202324,2023,October,Local authority,E92000001,England,E12000007,London,202,E09000007,Camden,Total in academic year,All,1411,56,28,50
+202324,2023,October,Local authority,E92000001,England,E12000007,London,201,E09000001,City of London,Total in academic year,All,59,1,1,100
+202324,2023,October,Local authority,E92000001,England,E12000007,London,306,E09000008,Croydon,Total in academic year,All,3590,121,47,38.8
+202324,2023,October,Local authority,E92000001,England,E12000007,London,307,E09000009,Ealing,Total in academic year,All,2738,90,48,53.3
+202324,2023,October,Local authority,E92000001,England,E12000007,London,308,E09000010,Enfield,Total in academic year,All,1725,97,32,33
+202324,2023,October,Local authority,E92000001,England,E12000007,London,203,E09000011,Greenwich,Total in academic year,All,3147,84,45,53.6
+202324,2023,October,Local authority,E92000001,England,E12000007,London,204,E09000012,Hackney,Total in academic year,All,4575,79,47,59.5
+202324,2023,October,Local authority,E92000001,England,E12000007,London,205,E09000013,Hammersmith and Fulham,Total in academic year,All,1767,55,30,54.5
+202324,2023,October,Local authority,E92000001,England,E12000007,London,309,E09000014,Haringey,Total in academic year,All,2316,82,41,50
+202324,2023,October,Local authority,E92000001,England,E12000007,London,310,E09000015,Harrow,Total in academic year,All,1152,59,22,37.3
+202324,2023,October,Local authority,E92000001,England,E12000007,London,311,E09000016,Havering,Total in academic year,All,3035,82,38,46.3
+202324,2023,October,Local authority,E92000001,England,E12000007,London,312,E09000017,Hillingdon,Total in academic year,All,2433,98,40,40.8
+202324,2023,October,Local authority,E92000001,England,E12000007,London,313,E09000018,Hounslow,Total in academic year,All,1536,76,29,38.2
+202324,2023,October,Local authority,E92000001,England,E12000007,London,206,E09000019,Islington,Total in academic year,All,2912,64,40,62.5
+202324,2023,October,Local authority,E92000001,England,E12000007,London,207,E09000020,Kensington and Chelsea,Total in academic year,All,1009,37,17,45.9
+202324,2023,October,Local authority,E92000001,England,E12000007,London,314,E09000021,Kingston upon Thames,Total in academic year,All,598,51,21,41.2
+202324,2023,October,Local authority,E92000001,England,E12000007,London,208,E09000022,Lambeth,Total in academic year,All,4326,84,42,50
+202324,2023,October,Local authority,E92000001,England,E12000007,London,209,E09000023,Lewisham,Total in academic year,All,3192,84,45,53.6
+202324,2023,October,Local authority,E92000001,England,E12000007,London,315,E09000024,Merton,Total in academic year,All,1041,57,22,38.6
+202324,2023,October,Local authority,E92000001,England,E12000007,London,316,E09000025,Newham,Total in academic year,All,3756,95,51,53.7
+202324,2023,October,Local authority,E92000001,England,E12000007,London,317,E09000026,Redbridge,Total in academic year,All,2254,79,34,43
+202324,2023,October,Local authority,E92000001,England,E12000007,London,318,E09000027,Richmond upon Thames,Total in academic year,All,676,59,21,35.6
+202324,2023,October,Local authority,E92000001,England,E12000007,London,210,E09000028,Southwark,Total in academic year,All,3354,101,45,44.6
+202324,2023,October,Local authority,E92000001,England,E12000007,London,319,E09000029,Sutton,Total in academic year,All,1648,62,22,35.5
+202324,2023,October,Local authority,E92000001,England,E12000007,London,211,E09000030,Tower Hamlets,Total in academic year,All,4202,90,50,55.6
+202324,2023,October,Local authority,E92000001,England,E12000007,London,320,E09000031,Waltham Forest,Total in academic year,All,1869,75,32,42.7
+202324,2023,October,Local authority,E92000001,England,E12000007,London,212,E09000032,Wandsworth,Total in academic year,All,1225,82,27,32.9
+202324,2023,October,Local authority,E92000001,England,E12000007,London,213,E09000033,Westminster,Total in academic year,All,901,53,20,37.7
+202324,2023,October,Local authority,E92000001,England,E12000001,North East,840,E06000047,County Durham,Total in academic year,All,2311,252,66,26.2
+202324,2023,October,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Total in academic year,All,668,40,12,30
+202324,2023,October,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Total in academic year,All,1150,84,27,32.1
+202324,2023,October,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Total in academic year,All,1464,38,16,42.1
+202324,2023,October,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Total in academic year,All,2102,57,27,47.4
+202324,2023,October,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Total in academic year,All,2671,97,41,42.3
+202324,2023,October,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Total in academic year,All,1044,78,25,32.1
+202324,2023,October,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Total in academic year,All,2336,168,56,33.3
+202324,2023,October,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Total in academic year,All,721,59,16,27.1
+202324,2023,October,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Total in academic year,All,538,58,14,24.1
+202324,2023,October,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Total in academic year,All,1146,78,22,28.2
+202324,2023,October,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Total in academic year,All,1086,109,26,23.9
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Total in academic year,All,1282,73,25,34.2
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Total in academic year,All,993,43,22,51.2
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Total in academic year,All,2651,127,54,42.5
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Total in academic year,All,949,81,22,27.2
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Total in academic year,All,1685,156,60,38.5
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Total in academic year,All,1637,161,58,36
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,942,E06000063,Cumberland,Total in academic year,All,2033,169,60,35.5
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Total in academic year,All,1737,62,33,53.2
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Total in academic year,All,3068,61,33,54.1
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Total in academic year,All,8139,603,223,37
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Total in academic year,All,3991,166,73,44
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Total in academic year,All,6189,183,72,39.3
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Total in academic year,All,1830,107,38,35.5
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Total in academic year,All,1883,87,32,36.8
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Total in academic year,All,2147,100,45,45
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Total in academic year,All,1076,100,30,30
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Total in academic year,All,1421,69,29,42
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Total in academic year,All,2086,111,41,36.9
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Total in academic year,All,1489,98,33,33.7
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Total in academic year,All,1209,91,30,33
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Total in academic year,All,1808,87,38,43.7
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,943,E06000064,Westmorland and Furness,Total in academic year,All,1315,146,65,44.5
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Total in academic year,All,1687,125,43,34.4
+202324,2023,October,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Total in academic year,All,2236,122,36,29.5
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Total in academic year,All,303,38,11,28.9
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Total in academic year,All,1134,67,30,44.8
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,825,E06000060,Buckinghamshire,Total in academic year,All,2008,234,64,27.4
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Total in academic year,All,3528,191,71,37.2
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Total in academic year,All,6304,528,191,36.2
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Total in academic year,All,648,49,19,38.8
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Total in academic year,All,7740,594,218,36.7
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Total in academic year,All,2582,103,39,37.9
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Total in academic year,All,1838,113,48,42.5
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Total in academic year,All,2407,302,88,29.1
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Total in academic year,All,2094,62,18,29
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Total in academic year,All,853,55,23,41.8
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Total in academic year,All,794,46,11,23.9
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Total in academic year,All,2153,75,40,53.3
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Total in academic year,All,3900,395,122,30.9
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Total in academic year,All,610,81,22,27.2
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Total in academic year,All,3697,284,86,30.3
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Total in academic year,All,621,63,29,46
+202324,2023,October,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Total in academic year,All,531,71,20,28.2
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Total in academic year,All,1110,82,19,23.2
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,839,E06000058,"Bournemouth, Christchurch and Poole",Total in academic year,All,1656,101,50,49.5
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,801,E06000023,"Bristol, City of",Total in academic year,All,2089,142,52,36.6
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Total in academic year,All,2310,277,79,28.5
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Total in academic year,All,2464,370,110,29.7
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,838,E06000059,Dorset,Total in academic year,All,1991,158,66,41.8
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Total in academic year,All,2394,301,81,26.9
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Total in academic year,All,0,1,0,0
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Total in academic year,All,387,80,22,27.5
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Total in academic year,All,1494,96,36,37.5
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Total in academic year,All,2875,266,83,31.2
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Total in academic year,All,1307,115,34,29.6
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Total in academic year,All,1586,88,28,31.8
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Total in academic year,All,442,43,12,27.9
+202324,2023,October,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Total in academic year,All,1532,235,66,28.1
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Total in academic year,All,8895,416,161,38.7
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Total in academic year,All,3000,117,42,35.9
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Total in academic year,All,1001,106,26,24.5
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,"Herefordshire, County of",Total in academic year,All,1051,99,36,36.4
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Total in academic year,All,4085,125,49,39.2
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Total in academic year,All,1014,151,43,28.5
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Total in academic year,All,835,83,29,34.9
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Total in academic year,All,4098,402,106,26.4
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Total in academic year,All,1597,90,37,41.1
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Total in academic year,All,951,74,25,33.8
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Total in academic year,All,2613,114,43,37.7
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Total in academic year,All,3262,244,84,34.4
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Total in academic year,All,3578,103,37,35.9
+202324,2023,October,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Total in academic year,All,2623,244,74,30.3
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,E08000016,Barnsley,Total in academic year,All,1919,91,28,30.8
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,E08000032,Bradford,Total in academic year,All,3223,202,70,34.7
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,E08000033,Calderdale,Total in academic year,All,1057,100,27,27
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,E08000017,Doncaster,Total in academic year,All,4104,128,61,47.7
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,E06000011,East Riding of Yorkshire,Total in academic year,All,1506,145,39,26.9
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,E06000010,"Kingston upon Hull, City of",Total in academic year,All,2031,97,36,37.1
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,E08000034,Kirklees,Total in academic year,All,2503,180,42,23.3
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,E08000035,Leeds,Total in academic year,All,6226,279,111,39.8
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,E06000012,North East Lincolnshire,Total in academic year,All,1306,61,22,36.1
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,E06000013,North Lincolnshire,Total in academic year,All,1441,80,30,37.5
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,E10000023,North Yorkshire,Total in academic year,All,2697,356,111,31.2
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,E08000018,Rotherham,Total in academic year,All,1476,120,42,35
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,E08000019,Sheffield,Total in academic year,All,3490,177,69,39
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,E08000036,Wakefield,Total in academic year,All,2677,138,41,29.7
+202324,2023,October,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,E06000014,York,Total in academic year,All,524,62,12,19.4
