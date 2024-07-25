@@ -18,9 +18,9 @@ jobs:
               id: changed-files
               uses: tj-actions/changed-files@v44
               # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
-              with:
-                files: |
-                        - *.py
+              # with:
+              #   files: |
+              #           - *.py
               #   since_last_remote_commit: true 
       
             - name: List all changed files
