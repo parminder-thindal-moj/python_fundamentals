@@ -6,7 +6,7 @@ on:
       - '**.py'
 
 jobs:
-    check-py-files:
+    check-any-py-files:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
