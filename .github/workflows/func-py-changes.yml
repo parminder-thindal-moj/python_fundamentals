@@ -2,7 +2,8 @@ name: Check Specific Python Changes
 on: 
   push:
     paths:
-      - './functions/*.py'
+      # - './functions/*.py'
+      - 'python_fundamentals/functions/*.py'
 
 jobs:
     Check-Specific-py-Files:
