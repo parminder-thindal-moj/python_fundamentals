@@ -2,7 +2,7 @@ name: Check Specific Python Changes
 on: 
   push:
     paths:
-      - '.functions/*.py'
+      - './functions/*.py'
 
 jobs:
     check-specific-py-files:
@@ -25,6 +25,10 @@ jobs:
                 for file in ${ALL_CHANGED_FILES}; do
                   echo "$file was changed"
                 done
+
+            - name: Debug Changed Files
+              run: echo "Changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
+        
       
 
 
