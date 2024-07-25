@@ -1,12 +1,11 @@
-name: Check-python-changes-in-funcs
-run-name: ${{ github.actor }}
+name: Check Specific Python Changes
 on: 
   push:
     paths:
-      - 'python_fundamentals/functions/*py
+      - '.functions/*.py'
 
 jobs:
-    check-any-py-files:
+    check-specific-py-files:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
