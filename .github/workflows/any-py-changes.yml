@@ -1,4 +1,4 @@
-name: Check-python-changes
+name: Any Python Changes
 run-name: ${{ github.actor }}
 on: 
   push:
