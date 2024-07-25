@@ -3,8 +3,9 @@ on:
   push:
     paths:
       # - './functions/*.py'
-      - 'python_fundamentals/functions/*.py'
+      # - 'python_fundamentals/functions/*.py'
       # - '**/*.py'
+      - 'python_fundamentals/**/*.py'
 
 jobs:
     Check-Specific-py-Files:
