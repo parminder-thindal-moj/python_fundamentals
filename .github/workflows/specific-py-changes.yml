@@ -26,9 +26,3 @@ jobs:
                   echo "$file was changed"
                 done
 
-            - name: Debug Changed Files
-              run: echo "Changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
-        
-      
-
-
