@@ -5,7 +5,7 @@ on:
       - './functions/*.py'
 
 jobs:
-    check-specific-py-files:
+    Check-Specific-py-Files:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
