@@ -5,7 +5,7 @@ on:
       # - './functions/*.py'
       # - 'python_fundamentals/functions/*.py'
       # - '**/*.py'
-      - 'python_fundamentals/functions/**'
+      - 'functions/**'
 
 jobs:
     Check-Specific-py-Files:
