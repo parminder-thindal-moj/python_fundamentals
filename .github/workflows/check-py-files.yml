@@ -2,8 +2,6 @@ name: CheckPythonFiles
 
 on:
   workflow_call:
-    outputs:
-      py_files_changed: ${{ jobs.check_py_files.outputs.py_files_changed }}
 
 jobs:
   check_py_files:
