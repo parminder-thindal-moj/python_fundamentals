@@ -30,6 +30,9 @@ jobs:
         needs:
             - a
             - b
-        if: needs.b.result == 'success' || needs.b.result == 'skipped'
+        if: |
+            always() &&
+            needs.a.result == 'success' &&
+            needs.b.result == 'success' || needs.b.result == 'skipped'
         steps:
             - run: echo "C"
