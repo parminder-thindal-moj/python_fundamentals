@@ -11,7 +11,7 @@ jobs:
             - run: echo "A"
             - id: set
               run: |
-                echo "::set-output name=run_job_b::yes"
+                echo "::set-output name=run_job_b::no"
         outputs:
             run_job_b: ${{steps.set.outputs.run_job_b}}
     
