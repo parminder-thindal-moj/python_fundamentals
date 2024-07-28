@@ -10,7 +10,7 @@
         name: CheckPythonFiles
         uses: ./.github/workflows/check-py-files.yml
     
-      lint:
+      conditional:
         needs: [check-py-files]
         name: conditional
         uses: ./.github/workflows/conditional.yml
