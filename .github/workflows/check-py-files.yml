@@ -1,0 +1,38 @@
+# Check Py files GitHub Action config file
+name: CheckPythonFiles
+
+on:
+  workflow_call:
+    outputs:
+      py_files_changed:
+        description: 'Check if py files have changed.'
+        value: ${{ jobs.check_py_files.outputs.py_files_changed }}
+
+jobs:
+  check_py_files:
+    runs-on: ubuntu-latest
+    outputs:
+      py_files_changed: ${{ steps.check.outputs.py_files_changed }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+            fetch-depth: 0
+
+      - name: Check for changed py files in classes or functions.
+        id: check
+        env:
+            PREVIOUS_COMMIT: ${{ github.event.before }}
+            CURRENT_COMMIT: ${{ github.sha }}
+        run: |
+            files=$(git diff --name-only ${{ env.CURRENT_COMMIT }} ${{ env.PREVIOUS_COMMIT }} | grep -E '^clasess/.*\.py$|^functions/.*\.py$')
+
+            if [ -n "$files" ]; then
+                echo "Python files have changed in scripts or tests."
+
+                echo "py_files_changed=true" >> $GITHUB_OUTPUT
+
+            else
+                echo "No Python files have changed in scripts or tests."
+
+            fi;
