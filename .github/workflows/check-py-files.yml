@@ -22,11 +22,9 @@ jobs:
       - name: Check for changed py files in classes or functions.
         id: check
         env:
-          PREVIOUS_COMMIT: ${{ github.event.workflow_run.before }}
-          CURRENT_COMMIT: ${{ github.event.workflow_run.sha }}
+          PREVIOUS_COMMIT: ${{ github.event.before }}
+          CURRENT_COMMIT: ${{ github.event.sha }}
         run: |
           set -euxo pipefail
           echo "$PREVIOUS_COMMIT"
           echo "$CURRENT_COMMIT"
-
-          files=$(git diff --name-only $CURRENT_COMMIT $PREVIOUS_COMMIT | grep -E '^classes/.*\.py$|^functions/.*\.py$')
