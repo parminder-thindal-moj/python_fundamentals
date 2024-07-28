@@ -1,0 +1,27 @@
+name: Lint-And-Auto-fix
+
+on: [push, pull_request]
+
+jobs:
+  lint_and_fix:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    - run: pip install ruff black
+    - run: |
+        ruff check .
+        ruff fix .
+        black --check .
+        black --diff .
+        black --fix .
+    
+    - name: Git Auto Commit
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: 'Auto-fix style issues'
