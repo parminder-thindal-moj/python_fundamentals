@@ -1,18 +1,13 @@
-# Check Py files GitHub Action config file
 name: CheckPythonFiles
 
 on:
   workflow_call:
     outputs:
-      py_files_changed:
-        description: 'Check if py files have changed.'
-        value: ${{ jobs.check_py_files.outputs.py_files_changed }}
+      py_files_changed: ${{ jobs.check_py_files.outputs.py_files_changed }}
 
 jobs:
   check_py_files:
     runs-on: ubuntu-latest
-    outputs:
-      py_files_changed: ${{ steps.check.outputs.py_files_changed }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -26,8 +21,11 @@ jobs:
           files: |
             classes/**/*.py
       
-      - name: Run step if any Python files in folder_a have changed
-        if: steps.changed-files.outputs.any_changed == 'true'
+      - name: Set output based on changes
+        id: set-output
         run: |
-          echo "One or more Python files in folder_a has changed."
-          # Add additional steps here to handle the change, e.g., running tests, deploying, etc.
+          if [[ "${{ steps.changed-files.outputs.any_changed }}" == "true" ]]; then
+            echo "::set-output name=py_files_changed::true"
+          else
+            echo "::set-output name=py_files_changed::false"
+          fi;
