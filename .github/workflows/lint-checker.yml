@@ -1,9 +1,10 @@
-name: Lint-And-Auto-fix
+name: Lint-Checker
 
-on: [push, pull_request]
+on: 
+  workflow_call:
 
 jobs:
-  lint_and_fix:
+  lint_and_check:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repo
@@ -16,12 +17,5 @@ jobs:
     - run: pip install ruff black
     - run: |
         ruff check .
-        ruff fix .
         black --check .
         black --diff .
-        black --fix .
-    
-    - name: Git Auto Commit
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: 'Auto-fix style issues'

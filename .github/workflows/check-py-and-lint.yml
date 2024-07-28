@@ -1,6 +1,6 @@
 ---
     # Unit test GitHub Action configuration file
-    name: CheckAndLint
+    name: Check-Py-And-Lint
     
     on:
       pull_request:
@@ -8,9 +8,9 @@
     jobs:    
       check-py-files:
         name: CheckPythonFiles
-        uses: .github/workflows/check-py-files.yml
+        uses: ./.github/workflows/check-py-files.yml
     
       lint:
         needs: [check-py-files]
-        name: Lint-And-Auto-fix
-        uses: .github/workflows/lint-auto-fix.yml
+        name: conditional
+        uses: ./.github/workflows/conditional.yml

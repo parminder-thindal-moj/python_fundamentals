@@ -1,7 +1,7 @@
 name: conditional
 
 on:
-    push:
+    workflow_call:
 
 jobs:
     job_a:
