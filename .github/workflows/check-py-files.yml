@@ -26,8 +26,8 @@ jobs:
           CURRENT_COMMIT: ${{ github.event.workflow_run.sha }}
         run: |
           set -euxo pipefail
-          echo "$env.PREVIOUS_COMMIT"
-          echo "$env.CURRENT_COMMIT"
+          echo "$PREVIOUS_COMMIT"
+          echo "CURRENT_COMMIT"
           
           files=$(git diff --name-only $CURRENT_COMMIT $PREVIOUS_COMMIT | grep -E '^classes/.*\.py$|^functions/.*\.py$')
           echo "Changed files: $files"
