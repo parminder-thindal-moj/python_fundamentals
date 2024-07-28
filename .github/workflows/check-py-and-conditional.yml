@@ -1,6 +1,6 @@
 ---
     # Unit test GitHub Action configuration file
-    name: Check-Py-And-Lint
+    name: Check-Py-And-Conditional
     
     on:
       pull_request:
