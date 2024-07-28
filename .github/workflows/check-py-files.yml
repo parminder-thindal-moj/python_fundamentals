@@ -22,17 +22,19 @@ jobs:
       - name: Check for changed py files in classes or functions.
         id: check
         env:
-            PREVIOUS_COMMIT: ${{ github.event.before }}
-            CURRENT_COMMIT: ${{ github.sha }}
+          PREVIOUS_COMMIT: ${{ github.event.workflow_run.before }}
+          CURRENT_COMMIT: ${{ github.event.workflow_run.sha }}
         run: |
-            files=$(git diff --name-only ${{ env.CURRENT_COMMIT }} ${{ env.PREVIOUS_COMMIT }} | grep -E '^classes/.*\.py$|^functions/.*\.py$')
-
-            if [ -n "$files" ]; then
-                echo "Python files have changed in classes or functions."
-
-                echo "py_files_changed=true" >> $GITHUB_OUTPUT
-
-            else
-                echo "No Python files have changed in classes or functions."
-
-            fi;
+          set -euxo pipefail
+          echo "PREVIOUS_COMMIT=$PREVIOUS_COMMIT"
+          echo "CURRENT_COMMIT=$CURRENT_COMMIT"
+          
+          files=$(git diff --name-only $CURRENT_COMMIT $PREVIOUS_COMMIT | grep -E '^classes/.*\.py$|^functions/.*\.py$')
+          echo "Changed files: $files"
+          
+          if [ -n "$files" ]; then
+              echo "Python files have changed in classes or functions."
+              echo "py_files_changed=true" >> $GITHUB_ENV
+          else
+              echo "No Python files have changed in classes or functions."
+          fi;
