@@ -28,3 +28,18 @@ jobs:
           set -euxo pipefail
           echo "$PREVIOUS_COMMIT"
           echo "$CURRENT_COMMIT"
+
+          files=$(git diff --name-only $CURRENT_COMMIT $PREVIOUS_COMMIT | grep -E '^classes/.*\.py$|^functions/.*\.py$')
+
+      - name: Get changed Python files in classes folder
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+        with:
+          files: |
+            classes/**/*.py
+      
+      - name: Run step if any Python files in folder_a have changed
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "One or more Python files in folder_a has changed."
+          # Add additional steps here to handle the change, e.g., running tests, deploying, etc.
