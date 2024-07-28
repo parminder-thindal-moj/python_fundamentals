@@ -4,7 +4,7 @@ on:
     push:
 
 jobs:
-    a:
+    job_a:
         name: a
         runs-on: ubuntu-latest
         steps:
@@ -15,24 +15,25 @@ jobs:
         outputs:
             run_job_b: ${{steps.set.outputs.run_job_b}}
     
-    b:
+    job_b:
         name: b
         runs-on: ubuntu-latest
         needs:
-            - a
-        if: needs.a.outputs.run_job_b == 'yes'
+            - job_a
+        if: needs.job_a.outputs.run_job_b == 'yes'
         steps:
             - run: echo "B"
     
-    c:
+    job_c:
         name: c
         runs-on: ubuntu-latest
         needs:
-            - a
-            - b
+            - job_a
+            - job_b
         if: |
             always() &&
-            needs.a.result == 'success' &&
-            needs.b.result == 'success' || needs.b.result == 'skipped'
+            (needs.job_a.result == 'success' &&
+            (needs.job_b.result == 'success' || needs.job_b.result == 'skipped')
+            )
         steps:
             - run: echo "C"
