@@ -1,0 +1,39 @@
+name: conditional
+
+on:
+    workflow_call:
+
+jobs:
+    job_a:
+        name: a1
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "A"
+            - id: set
+              run: |
+                echo "{run_job_b}={no}" >> $GITHUB_OUTPUT
+        outputs:
+            run_job_b: ${{steps.set.outputs.run_job_b}}
+    
+    job_b:
+        name: b1
+        runs-on: ubuntu-latest
+        needs:
+            - job_a
+        if: needs.job_a.outputs.run_job_b == 'yes'
+        steps:
+            - run: echo "B"
+    
+    job_c:
+        name: c1
+        runs-on: ubuntu-latest
+        needs:
+            - job_a
+            - job_b
+        if: |
+            always() &&
+            (needs.job_a.result == 'success' &&
+            (needs.job_b.result == 'success' || needs.job_b.result == 'skipped')
+            )
+        steps:
+            - run: echo "C"

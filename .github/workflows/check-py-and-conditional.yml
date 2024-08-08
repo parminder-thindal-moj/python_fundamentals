@@ -1,0 +1,16 @@
+---
+    # Unit test GitHub Action configuration file
+    name: Check-Py-And-Conditional
+    
+    on:
+      pull_request:
+    
+    jobs:    
+      check-py-files:
+        name: CheckPythonFiles
+        uses: ./.github/workflows/check-py-files.yml
+    
+      conditional:
+        needs: [check-py-files]
+        name: conditional
+        uses: ./.github/workflows/conditional.yml
