@@ -3,4 +3,24 @@ reviewers:
   defaults:
     # usernames
     - parminder-thindal-moj
-    - ThomasHepworth
+
+  # Reviewer groups each of which has a list of GitHub usernames
+  groups:
+    repository-owners:
+      - parminder-thindal-moj
+
+    core-contributors:
+      - parminder-thindal-moj
+      - ThomasHepworth
+
+files:
+  # Keys are glob expressions.
+  # You can assign groups defined above as well as GitHub usernames.
+  "**":
+    - core-contributors # group
+
+options:
+  ignore_draft: true
+  ignored_keywords:
+    - DO NOT REVIEW
+  enable_group_assignment: false
