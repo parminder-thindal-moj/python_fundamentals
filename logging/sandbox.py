@@ -31,7 +31,6 @@ logging.warning("This will get logged to the log file")
 logging.basicConfig(format="%(process)d-%(levelname)s-%(message)s")
 logging.warning("This is a Warning")
 
-import logging
 
 ### Add date and time:
 logging.basicConfig(format="%(asctime)s - %(message)s", level=logging.INFO)
