@@ -8,11 +8,11 @@ jobs:
     Check-Specific-py-Files:
         runs-on: ubuntu-latest
         steps:
-            - name: Checkout
+            - name: Checkout Git Repo
               uses: actions/checkout@v4
 
-            - name: Get changed files
-              id: changed-files
+            - name: Get changed py files
+              id: changed-py-files
               uses: tj-actions/changed-files@v44
               # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
               # with:
