@@ -18,9 +18,9 @@ jobs:
         with:
           files: |
             classes/**/*.py
-      
-      - name: Set output based on changes
-        id: set-output
+
+      - name: Set Github Env based on changes
+        id: set-github-env
         run: |
           if [[ "${{ steps.changed-files.outputs.any_changed }}" == "true" ]]; then
             echo "py_files_changed=true" >> $GITHUB_ENV
