@@ -1,0 +1,27 @@
+# name: ChangedPyFiles
+
+# on:
+#   workflow_call:
+
+# jobs:
+#   changed_files:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
+#         with:
+#             fetch-depth: 0
+
+#       - name: Get changed Python files in classes folder
+#         id: changed-py-files
+#         uses: tj-actions/changed-files@v44
+#         with:
+#           files: |
+#             classes/**/*.py
+
+#       - name: List all changed python files in classes dir
+#         # NOTE: Ensure all outputs are prefixed by the same key used above e.g. `test_(...)` | `doc_(...)` | `src_(...)` when trying to access the `any_changed` output.
+#         if: steps.changed-py-files.outputs.any_changed == 'true'
+#         env:
+#           PY_CHANGED_FILES: ${{steps.changed-py-files.outputs.any_changed}}
