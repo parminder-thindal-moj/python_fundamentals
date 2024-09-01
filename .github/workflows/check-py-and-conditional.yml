@@ -22,7 +22,7 @@
           - name: Print Environment Variables
             run: |
               if [[ "${{ needs.set-github-env.outputs.py_files_changed }}" == "true" ]]; then
-              echo "Value of py_files_changed: list the changes here?
+              echo "Value of py_files_changed: list the changes here?""
               else
                 echo "no python files changes"
               fi;
