@@ -21,7 +21,7 @@
         steps:
           - name: Print Environment Variables
             run: |
-              if [[ "${{ needs.check_py_files.outputs.env.ALL_CHANGED_PY_FILES }}" == "true" ]]; then
+              if [[ "${{ needs.check-py-files.outputs.env.ALL_CHANGED_PY_FILES }}" == "true" ]]; then
                 echo "py files changed:"
                 for file in ${ALL_CHANGED_PY_FILES}; do
                   echo "$file was changed"
