@@ -1,0 +1,30 @@
+name: Check Specific Python Changes
+on: 
+  push:
+    paths:
+      - 'functions/*.py'
+
+jobs:
+    Check-Specific-py-Files:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Git Repo
+              uses: actions/checkout@v4
+
+            - name: Get changed py files
+              id: changed-py-files
+              uses: tj-actions/changed-files@v44
+              # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
+              # with:
+              #   files: |
+              #           - *.py
+              #   since_last_remote_commit: true 
+      
+            - name: List all changed files
+              env:
+                ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+              run: |
+                for file in ${ALL_CHANGED_FILES}; do
+                  echo "$file was changed"
+                done
+

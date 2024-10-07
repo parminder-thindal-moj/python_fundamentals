@@ -1,0 +1,30 @@
+name: ChangedPyFiles
+
+on:
+  workflow_call:
+
+jobs:
+  check_py_files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+            fetch-depth: 0
+
+      - name: Get changed Python files in classes folder
+        id: changed-py-files
+        uses: tj-actions/changed-files@v44
+        with:
+          files: |
+            classes/**/*.py
+
+      - name: List all changed python files
+        if: steps.changed-py-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_PY_FILES: ${{ steps.changed-py-files.outputs.all_changed_files }}
+        run: |
+          for file in ${ALL_CHANGED_PY_FILES}; do
+            echo "$file was changed"
+          done
