@@ -1,32 +1,31 @@
----
-    # Unit test GitHub Action configuration file
-    name: Check-Py-And-Conditional
+# Unit test GitHub Action configuration file
+name: Check-Py-And-Conditional
 
-    on:
-      pull_request:
+on:
+  pull_request:
 
-    jobs:
-      check-py-files:
-        name: CheckPythonFiles
-        uses: ./.github/workflows/check-py-files.yml
+jobs:
+  check-py-files:
+    name: CheckPythonFiles
+    uses: ./.github/workflows/check-py-files.yml
 
-      conditional:
-        needs: [check-py-files]
-        name: conditional
-        uses: ./.github/workflows/conditional.yml
+  conditional:
+    needs: [check-py-files]
+    name: conditional
+    uses: ./.github/workflows/conditional.yml
 
-      print-env-vars:
-        needs: [check-py-files]
-        runs-on: ubuntu-latest
-        steps:
-          - name: Print Environment Variables
-            run: |
-              if [[ "${{ needs.check-py-files.outputs.env.ALL_CHANGED_PY_FILES }}" == "true" ]]; then
-                echo "py files changed:"
-                for file in ${ALL_CHANGED_PY_FILES}; do
-                  echo "$file was changed"
-                done
+  print-env-vars:
+    needs: [check-py-files]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Environment Variables
+        run: |
+          if [[ "${{ needs.check-py-files.outputs.env.ALL_CHANGED_PY_FILES }}" == "true" ]]; then
+            echo "py files changed:"
+            for file in ${ALL_CHANGED_PY_FILES}; do
+              echo "$file was changed"
+            done
 
-              else
-                echo "no python files changes"
-              fi;
+          else
+            echo "no python files changes"
+          fi;
